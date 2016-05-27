@@ -95,3 +95,11 @@ h1, h2, h3, h4, h5, h6, .navbar {
   /* Pad bottom by footer height */
   padding: 0 0 $footer-height;
 }
+
+.field_with_errors {
+  color: #ff3333;
+  background-color:#FFEEEE;
+  border-radius: 3px;
+  padding:8px;
+  margin:10px;
+}
