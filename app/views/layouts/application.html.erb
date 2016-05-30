@@ -26,7 +26,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         
-        <li><a href="#">See all Courses</a></li>
+        <li><% link_to 'See All Courses', courses_path %> </li>
         </ul>
       <ul class="nav navbar-nav navbar-right">
       <% if user_signed_in? %>
