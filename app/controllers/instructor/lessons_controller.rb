@@ -12,7 +12,7 @@ class Instructor::LessonsController < ApplicationController
 
   def create
     
-    if current_section.lesson.create != current_user
+    if current_section.lessons.create != current_user
       return render text: 'Unauthorized', status: :unauthorized
     end
     @lesson = current_section.lessons.create(lesson_params)
