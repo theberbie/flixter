@@ -108,6 +108,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   clear:both;
 }
 
+<<<<<<< HEAD
 .section {
   border: 1px solid;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
@@ -130,3 +131,24 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-weight: 100;
   font-size:25px;
 }
+=======
+.lesson {
+  
+  background-color:black;
+  margin-top:10px;
+  height: 130px;
+}
+
+.section{
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #e4e4e4;
+  padding:20px;
+}
+
+.lesson a b{
+  color:white;
+  font-family: "Helvetica Neue",Helvetica;
+  font-weight:100;
+  font-size: 15px;
+}
+>>>>>>> 3aefe1f7c32015c6415e726b62eb8f0f71309e66
