@@ -9,9 +9,24 @@ body {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
+.edukate {
+  color: #CBFFFA;
+}
+
+
+.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  
+  
+}
+
+
+
 .navbar-inverse .navbar-nav > li > a{
   
-  color:white;
+  color:#7F1917;
+
 }
 .navbar {
   border-radius:0;
@@ -20,15 +35,10 @@ body {
   box-shadow: 0px 1px 3px #2a2a2a;
   background:url('pink_rice.png');
 
+
 }
 
 
-
-navbar-brand {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100;
-  color:#21B6A8;
-}
 
 .hero {
   background:url('education.jpeg') no-repeat center center fixed;
@@ -82,7 +92,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   height:$footer-height;
   color:white;
   font-family: "Helvetica Neue",Helvetica;
-    background-color: rgba(36,32,33,0.9);
+    background-color:  #7F1917;
   padding:10px 0px;
     font-weight:100;
 
