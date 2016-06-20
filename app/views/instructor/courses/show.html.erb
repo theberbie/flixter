@@ -1,12 +1,11 @@
 <script>
   $(function() {
-    $('.new-lesson-button').click(function(event){
-      var lessonUrl = $(event.target).data('lesson-url');
-      alert(lessonUrl);
+
+    $('.new-lesson-button').click(function( event ) {
+      var lessonUrl = $( event.target).data('lesson-url');
       $('#newLessonForm').attr('action', lessonUrl);
+   });
 
-
-    });
     $('.lessons').sortable({
       update: function( event, ui ) {
         $.ajax({
@@ -53,9 +52,11 @@
           <%= section.title %>
         </div>
        <!-- Button trigger modal -->
-      <button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%= instructor_section_lessons_path(section) %>">
+     <button class="btn btn-primary btn-sm pull-right new-lesson-button" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%= instructor_section_lessons_path(section) %>">
+
           New Lesson...
         </button>
+        
         <br class="clr" />
         <br class="clr" />
 
